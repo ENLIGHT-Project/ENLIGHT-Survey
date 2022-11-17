@@ -1,0 +1,2674 @@
+{
+  "class": "Survey",
+  "id": 878197,
+  "internal_title": "ENLIGHT_Guideline_R02",
+  "l10n": "en_GB",
+  "runs": [
+    {
+      "class": "SurveyRun",
+      "alert_frequency": 0,
+      "alert_last_update": 0,
+      "contact_message": "<p>For questions relating to this survey, <b>please contact</b> [CONTACT-PERSON]</p>",
+      "discourage_search_engines": true,
+      "expected_responses": 100,
+      "external_title": "ENLIGHT Consensus \u2014 Round 2",
+      "id": 878179,
+      "login_message": "<p>Please sign in below using the credentials supplied to you</p>",
+      "notification_invite_body": "Dear [EMAIL]\r\nAn online survey has been created for you to complete.\r\n\r\n[CUSTOM_URL]\r\n\r\n- Online surveys Team",
+      "notification_invite_subject": "You have been sent a survey to complete",
+      "notification_reminder_body": "Dear [EMAIL]\r\nWe have not yet detected your response to our survey.\r\n\r\n[CUSTOM_URL]\r\n\r\n- Online surveys Team",
+      "notification_reminder_subject": "Survey completion reminder",
+      "permit_back_forth": true,
+      "permit_finish_later": false,
+      "permit_response_printout": false,
+      "sender_name": "Jisc online surveys",
+      "short_name": "enlight_consensus_r02",
+      "show_completion_receipt": false,
+      "show_numbering": true,
+      "show_progress": true,
+      "timezone": 346
+    }
+  ],
+  "top_container": {
+    "class": "Container",
+    "data_question_visibility": "show",
+    "id": 68265447,
+    "label": "b68122043",
+    "mandatory": "False",
+    "children": [
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265448,
+        "label": "b68122044",
+        "mandatory": "False",
+        "title": "ENLIGHT Round 2",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265511,
+            "label": "b68128118",
+            "mandatory": "False",
+            "text": "<p><strong>IMPORTANT: Please complete this survey on your computer (not on your phone).</strong></p>\n\n<p>Thank you for agreeing to participate in Round 2 of the ENLIGHT survey.</p>\n\n<p>In Round 1, we asked you to rate the importance of a series of potential items for reporting light interventions. We have used this information to construct a draft checklist, which we have shared with you via email.</p>\n\n<p>In this round, Round 2, you will be asked to indicate which format you recommend for a given item (text, table, or figure). Please note that in this round, we are mostly asking you for information that we will include in the recommendation document that accompanies the checklist.</p>\n\n<p><strong>Please make sure that you have the checklist open on your computer or available for reference as a print-out while you are completing this survey.</strong></p>\n\n<p>If you have any comments or feedback you would like to give throughout the survey, there will be an open comment field at the end of the survey.</p>\n\n<p>We look forward to receiving your input.</p>\n\n<p>\u00a0</p>\n\n<p><strong>Any other comments?</strong></p>\n\n<p>If you have any questions throughout the survey, please feel free to reach out to any member of the ENLIGHT team, or our general email address at <a target=\"_blank\" href=\"mailto:enlight@lightcat.group?subject=Question%20about%20ENLIGHT%20survey\">enlight@lightcat.group</a>.</p>"
+          },
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": true,
+            "format": "single",
+            "id": 68265513,
+            "is_other": false,
+            "label": "b68136318",
+            "mandatory": "True",
+            "maxsize": 5,
+            "show_hints": true,
+            "size": 35,
+            "text": "Please enter your unique 5-character ID.",
+            "q_no": "1"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265450,
+        "label": "b68122049",
+        "mandatory": "False",
+        "title": "Reporting format of essential items",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265506,
+            "label": "b68125780",
+            "mandatory": "False",
+            "text": "<p>The following items were rated by &gt;75% of respondents to be important or very important in Round 1. We consider these to be essential.</p>\n\n<p>In this section, we are asking you to indicate whether these items should be reported as text, table or figure. For some items, some options do not apply. In these cases, please ignore those options. Please note that you can select more than one format for each item.</p>"
+          },
+          {
+            "class": "Grid",
+            "data_question_visibility": "show",
+            "id": 68265454,
+            "label": "b68122729",
+            "mandatory": "False",
+            "text": "Please indicate how the following <strong>essential</strong> items should be reported. The headings (e.g. A.1, B.2, etc.) refer to the checklist sections.",
+            "q_no": "2",
+            "children": [
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265458,
+                "label": "b68167190",
+                "mandatory": "False",
+                "text": "A.1. Timeline of experiment (including timing and duration of light)",
+                "q_no": "2.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265514,
+                    "label": "b68167191",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.1.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525761,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525798,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525801,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265459,
+                "label": "b68167192",
+                "mandatory": "False",
+                "text": "A.1. Pre-laboratory light exposure",
+                "q_no": "2.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265515,
+                    "label": "b68167193",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.2.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525763,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525777,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525802,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265460,
+                "label": "b68167194",
+                "mandatory": "False",
+                "text": "A.1. Pre-laboratory sleep-wake behaviour",
+                "q_no": "2.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265516,
+                    "label": "b68167195",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.3.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525765,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525781,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525803,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265461,
+                "label": "b68167196",
+                "mandatory": "False",
+                "text": "A.1. Immediate prior light exposure",
+                "q_no": "2.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265517,
+                    "label": "b68167197",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.4.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525767,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525784,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525804,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265462,
+                "label": "b68167198",
+                "mandatory": "False",
+                "text": "A.1. Description of experimental setting",
+                "q_no": "2.5",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265518,
+                    "label": "b68167199",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.5.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525769,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525789,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525805,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265463,
+                "label": "b68167200",
+                "mandatory": "False",
+                "text": "A.2. Measurement plane (e.g., horizontal or vertical)",
+                "q_no": "2.6",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265519,
+                    "label": "b68167201",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.6.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525771,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525793,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525806,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265464,
+                "label": "b68167202",
+                "mandatory": "False",
+                "text": "A.2. Measurement viewpoint and location",
+                "q_no": "2.7",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265520,
+                    "label": "b68167203",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.7.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525773,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525797,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525807,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265465,
+                "label": "b68167204",
+                "mandatory": "False",
+                "text": "A.2. Make & manufacturer of the measurement instrument",
+                "q_no": "2.8",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265521,
+                    "label": "b68167205",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.8.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525719,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525778,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525808,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265466,
+                "label": "b68167206",
+                "mandatory": "False",
+                "text": "A.2. Calibration status of the instrument",
+                "q_no": "2.9",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265522,
+                    "label": "b68167207",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.9.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525721,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525783,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525809,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265497,
+                "label": "b68167208",
+                "mandatory": "False",
+                "text": "B.1. Type, make and manufacturer of the light source",
+                "q_no": "2.10",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265560,
+                    "label": "b68167209",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.10.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525723,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525791,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525810,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265498,
+                "label": "b68167210",
+                "mandatory": "False",
+                "text": "B.2. Spectral irradiance distribution",
+                "q_no": "2.11",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265561,
+                    "label": "b68167211",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.11.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525725,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525796,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525811,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265499,
+                "label": "b68167212",
+                "mandatory": "False",
+                "text": "B.2. Illuminance (lux)",
+                "q_no": "2.12",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265562,
+                    "label": "b68167213",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.12.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525727,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525779,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525812,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265500,
+                "label": "b68167214",
+                "mandatory": "False",
+                "text": "B.2. a\u2212opic irradiance (including melanopic)",
+                "q_no": "2.13",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265563,
+                    "label": "b68167215",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.13.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525718,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525787,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525813,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265501,
+                "label": "b68167216",
+                "mandatory": "False",
+                "text": "B.4. Temporal pattern (including flicker frequency and waveform)",
+                "q_no": "2.14",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265564,
+                    "label": "b68167217",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.14.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525731,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525799,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525814,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265477,
+                "label": "b68167218",
+                "mandatory": "False",
+                "text": "B.4. Location of stimulus and viewing distance",
+                "q_no": "2.15",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265565,
+                    "label": "b68167219",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.15.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525733,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525786,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525815,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265503,
+                "label": "b68167220",
+                "mandatory": "False",
+                "text": "B.4. Relative size of the stimulus",
+                "q_no": "2.16",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265566,
+                    "label": "b68167221",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "2.16.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525735,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525776,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525816,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265451,
+        "label": "b68122060",
+        "mandatory": "False",
+        "title": "Newly included and non-essential items",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265508,
+            "label": "b68126395",
+            "mandatory": "False",
+            "text": "<p>Some of the following items were rated as important or very important by &lt;75% of respondents rating. As a consequence, these did not reach the threshold for automatic inclusion but were added for completeness across reporting categoriess and technical accuracy. Other items were newly added based on free-form feedback from participants.</p>\n\n<p>In this section, we are asking you to indicate whether these items should be reported as text, table or figure. For some items, some options do not apply. In these cases, please ignore those options. Please note that you can select more than one format for each item.</p>\n\n<p>If you do not think that these items should be included in the checklist, please indicate this. If you do not know or recognise the quantity, please indicate this as well.</p>\n\n<p><strong>IMPORTANT</strong>: If you indicate that the items should not be included in the checklist, please indicate nonetheless which format they should be reported in.</p>"
+          },
+          {
+            "class": "Grid",
+            "data_question_visibility": "show",
+            "id": 68265455,
+            "label": "b68123256",
+            "mandatory": "False",
+            "text": "The following items did not reach the threshold for inclusion in Round 1, but have been included in the draft for completeness and technical accuracy. Please select how (and if) the following items should be reported.",
+            "q_no": "3",
+            "children": [
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265504,
+                "label": "b68167228",
+                "mandatory": "False",
+                "text": "B.2. Spectral radiance distribution",
+                "q_no": "3.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265567,
+                    "label": "b68167229",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "3.1.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525738,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525782,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525817,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525830,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Don't know or recognise this quantity/item",
+                        "value": 4
+                      }
+                    ]
+                  },
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265568,
+                    "label": "b68167230",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "3.1.b",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525739,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should not be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265490,
+                "label": "b68167231",
+                "mandatory": "False",
+                "text": "B.2. Luminance (cd/m2)",
+                "q_no": "3.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265569,
+                    "label": "b68167232",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "3.2.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525742,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525792,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525818,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525825,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Don't know or recognise this quantity/item",
+                        "value": 4
+                      }
+                    ]
+                  },
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265523,
+                    "label": "b68167233",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "3.2.b",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525743,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should not be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265491,
+                "label": "b68167234",
+                "mandatory": "False",
+                "text": "B.2. a\u2212opic radiance (including melanopic)",
+                "q_no": "3.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265524,
+                    "label": "b68167235",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "3.3.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525744,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525775,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525819,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525831,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Don't know or recognise this quantity/item",
+                        "value": 4
+                      }
+                    ]
+                  },
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265525,
+                    "label": "b68167236",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "3.3.b",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525745,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should not be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265505,
+                "label": "b68167237",
+                "mandatory": "False",
+                "text": "B.2. a\u2212opic equivalent daylight illuminance (EDI, including melanopic)",
+                "q_no": "3.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265570,
+                    "label": "b68167238",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "3.4.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525748,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525780,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525800,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525828,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Don't know or recognise this quantity/item",
+                        "value": 4
+                      }
+                    ]
+                  },
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265526,
+                    "label": "b68167239",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "3.4.b",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525749,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should not be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265492,
+                "label": "b68167240",
+                "mandatory": "False",
+                "text": "B.2. a\u2212opic equivalent daylight luminance (EDL, including melanopic)",
+                "q_no": "3.5",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": true,
+                    "has_other": false,
+                    "id": 68265527,
+                    "label": "b68167241",
+                    "layout": "across",
+                    "mandatory": "True",
+                    "min_number": 1,
+                    "show_hints": true,
+                    "q_no": "3.5.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525752,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Text",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525785,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Table",
+                        "value": 2
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525820,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Figure",
+                        "value": 3
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525827,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Don't know or recognise this quantity/item",
+                        "value": 4
+                      }
+                    ]
+                  },
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265528,
+                    "label": "b68167242",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "3.5.b",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525753,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should not be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "Grid",
+                "data_question_visibility": "show",
+                "id": 68265457,
+                "label": "b68165402",
+                "mandatory": "False",
+                "text": "The following items were newly added to the checklist based on open-text suggestions in Round 1. Please select how (and if) the following items should be reported.",
+                "q_no": "3.a",
+                "children": [
+                  {
+                    "class": "GridRow",
+                    "data_question_visibility": "show",
+                    "id": 68265493,
+                    "label": "b68167330",
+                    "mandatory": "False",
+                    "text": "A.3. Pupil dilation",
+                    "q_no": "3.a.1",
+                    "children": [
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": true,
+                        "has_other": false,
+                        "id": 68265552,
+                        "label": "b68167331",
+                        "layout": "across",
+                        "mandatory": "True",
+                        "min_number": 1,
+                        "show_hints": true,
+                        "q_no": "3.a.1.a",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525755,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Text",
+                            "value": 1
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525790,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Table",
+                            "value": 2
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525821,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Figure",
+                            "value": 3
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525826,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Don't know or recognise this quantity/item",
+                            "value": 4
+                          }
+                        ]
+                      },
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": false,
+                        "has_other": false,
+                        "id": 68265553,
+                        "label": "b68167332",
+                        "layout": "across",
+                        "mandatory": "False",
+                        "show_hints": true,
+                        "q_no": "3.a.1.b",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525756,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Should not be included",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "class": "GridRow",
+                    "data_question_visibility": "show",
+                    "id": 68265494,
+                    "label": "b68167334",
+                    "mandatory": "False",
+                    "text": "A.3. Circadian time",
+                    "q_no": "3.a.2",
+                    "children": [
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": true,
+                        "has_other": false,
+                        "id": 68265554,
+                        "label": "b68167335",
+                        "layout": "across",
+                        "mandatory": "True",
+                        "min_number": 1,
+                        "show_hints": true,
+                        "q_no": "3.a.2.a",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525759,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Text",
+                            "value": 1
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525795,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Table",
+                            "value": 2
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525822,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Figure",
+                            "value": 3
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525832,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Don't know or recognise this quantity/item",
+                            "value": 4
+                          }
+                        ]
+                      },
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": false,
+                        "has_other": false,
+                        "id": 68265555,
+                        "label": "b68167336",
+                        "layout": "across",
+                        "mandatory": "False",
+                        "show_hints": true,
+                        "q_no": "3.a.2.b",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525757,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Should not be included",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "class": "GridRow",
+                    "data_question_visibility": "show",
+                    "id": 68265495,
+                    "label": "b68167337",
+                    "mandatory": "False",
+                    "text": "A.3. Ocular health and function",
+                    "q_no": "3.a.3",
+                    "children": [
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": true,
+                        "has_other": false,
+                        "id": 68265556,
+                        "label": "b68167338",
+                        "layout": "across",
+                        "mandatory": "True",
+                        "min_number": 1,
+                        "show_hints": true,
+                        "q_no": "3.a.3.a",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525750,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Text",
+                            "value": 1
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525788,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Table",
+                            "value": 2
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525823,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Figure",
+                            "value": 3
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525833,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Don't know or recognise this quantity/item",
+                            "value": 4
+                          }
+                        ]
+                      },
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": false,
+                        "has_other": false,
+                        "id": 68265557,
+                        "label": "b68167339",
+                        "layout": "across",
+                        "mandatory": "False",
+                        "show_hints": true,
+                        "q_no": "3.a.3.b",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525746,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Should not be included",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "class": "GridRow",
+                    "data_question_visibility": "show",
+                    "id": 68265496,
+                    "label": "b68167340",
+                    "mandatory": "False",
+                    "text": "B.1. Use of filtering apparatus (e.g., blue-blocking glasses)",
+                    "q_no": "3.a.4",
+                    "children": [
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": true,
+                        "has_other": false,
+                        "id": 68265558,
+                        "label": "b68167341",
+                        "layout": "across",
+                        "mandatory": "True",
+                        "min_number": 1,
+                        "show_hints": true,
+                        "q_no": "3.a.4.a",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525740,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Text",
+                            "value": 1
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525794,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Table",
+                            "value": 2
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525824,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Figure",
+                            "value": 3
+                          },
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525829,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Don't know or recognise this quantity/item",
+                            "value": 4
+                          }
+                        ]
+                      },
+                      {
+                        "class": "MultipleAnswer",
+                        "data_question_visibility": "show",
+                        "displayLegend": false,
+                        "displayOptionality": false,
+                        "has_other": false,
+                        "id": 68265559,
+                        "label": "b68167342",
+                        "layout": "across",
+                        "mandatory": "False",
+                        "show_hints": true,
+                        "q_no": "3.a.4.b",
+                        "options": [
+                          {
+                            "class": "SelectionOption",
+                            "id": 165525736,
+                            "is_not_applicable": false,
+                            "is_other": false,
+                            "screen_to_message": false,
+                            "text": "Should not be included",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265452,
+        "label": "b68122061",
+        "mandatory": "False",
+        "title": "Excluded items",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265507,
+            "label": "b68128791",
+            "mandatory": "False",
+            "text": "<p>Based on your input in Round 1 of this survey, the following items were not added to the checklist as items in their own right. Nevertheless, s<span style=\"background-color: rgb(255, 255, 255);\">ome items might still be reported and referred to in other categories.<span>\u00a0<span style=\"background-color: rgb(255, 255, 255);\">For example, CCT might still be included in the \"B.3. Colour characteristics\" but does not warrant its own row in the checklist.</span></span></span></p>\n\n<p><span style=\"background-color: rgb(255, 255, 255);\"><span><span style=\"background-color: rgb(255, 255, 255);\"><span style=\"background-color: rgb(255, 255, 255);\">Please indicate whether the items below should have been included as their own items.</span></span></span></span></p>\n\n<p><span style=\"background-color: rgb(255, 255, 255);\">Please note that this only concerns the checklist, not whether these items should be measured.</span></p>\n\n<p><strong>IMPORTANT</strong>: If you do not think that any of these items should be included as their own row in the checklist, you can <strong>skip</strong> this section.</p>"
+          },
+          {
+            "class": "Grid",
+            "data_question_visibility": "show",
+            "id": 68265456,
+            "label": "b68123457",
+            "mandatory": "False",
+            "q_no": "4",
+            "children": [
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265467,
+                "label": "b68136212",
+                "mandatory": "False",
+                "text": "CIE S026 quantities: a-opic efficacy of luminous radiation (a-opic ELR)",
+                "q_no": "4.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265529,
+                    "label": "b68136213",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.1.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525747,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265468,
+                "label": "b68136214",
+                "mandatory": "False",
+                "text": "CIE S026 quantities: a-opic daylight (D65) efficacy ratio (a-opic DER)",
+                "q_no": "4.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265530,
+                    "label": "b68136215",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.2.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525760,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265469,
+                "label": "b68136216",
+                "mandatory": "False",
+                "text": "Colour quantities: CIE 1931 XYZ (tristimulus coordinates)",
+                "q_no": "4.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265531,
+                    "label": "b68136217",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.3.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525762,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265470,
+                "label": "b68136218",
+                "mandatory": "False",
+                "text": "Colour quantities: Duv",
+                "q_no": "4.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265532,
+                    "label": "b68136219",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.4.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525764,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265471,
+                "label": "b68136220",
+                "mandatory": "False",
+                "text": "Colour quantities: CIE 1976 u'v'",
+                "q_no": "4.5",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265533,
+                    "label": "b68136221",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.5.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525766,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265472,
+                "label": "b68136222",
+                "mandatory": "False",
+                "text": "Colour quantities: CIE 1964 XYZ (tristimulus coordinates)",
+                "q_no": "4.6",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265534,
+                    "label": "b68136223",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.6.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525768,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265473,
+                "label": "b68136224",
+                "mandatory": "False",
+                "text": "Colour quantities: CIE 1931 xy (chromaticity)",
+                "q_no": "4.7",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265535,
+                    "label": "b68136225",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.7.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525770,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265474,
+                "label": "b68136226",
+                "mandatory": "False",
+                "text": "Colour quantities: CIE 1964 xy (chromaticity)",
+                "q_no": "4.8",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265536,
+                    "label": "b68136227",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.8.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525772,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265475,
+                "label": "b68136228",
+                "mandatory": "False",
+                "text": "Colour quantities: Correlated colour temperature (CCT)",
+                "q_no": "4.9",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265537,
+                    "label": "b68136229",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.9.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525774,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265476,
+                "label": "b68136230",
+                "mandatory": "False",
+                "text": "Colour rendition metrics: Rg (Colour Gamut Score; IES TM-30-15, CIE 224:2017)",
+                "q_no": "4.10",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265538,
+                    "label": "b68136231",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.10.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525720,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265502,
+                "label": "b68136232",
+                "mandatory": "False",
+                "text": "Colour rendition metrics: Rf (Colour Fidelity Index; IES TM-30-15, CIE 224:2017)",
+                "q_no": "4.11",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265539,
+                    "label": "b68136233",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.11.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525722,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265478,
+                "label": "b68136234",
+                "mandatory": "False",
+                "text": "Colour rendition metrics: Ra (Colour Rendering Index = CRI; CIE 13.3:1995)",
+                "q_no": "4.12",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265540,
+                    "label": "b68136235",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.12.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525724,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265479,
+                "label": "b68136236",
+                "mandatory": "False",
+                "text": "Experimental setting-level: Photograph of experimental setting",
+                "q_no": "4.13",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265541,
+                    "label": "b68136237",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.13.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525726,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265480,
+                "label": "b68136238",
+                "mandatory": "False",
+                "text": "Experimental setting-level: Drawing of experimental setting",
+                "q_no": "4.14",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265542,
+                    "label": "b68136239",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.14.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525728,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265481,
+                "label": "b68136240",
+                "mandatory": "False",
+                "text": "Experimental setting-level: Room geometry (including size)",
+                "q_no": "4.15",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265543,
+                    "label": "b68136241",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.15.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525730,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265482,
+                "label": "b68136242",
+                "mandatory": "False",
+                "text": "Instrument-level characteristics: Serial number",
+                "q_no": "4.16",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265544,
+                    "label": "b68136243",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.16.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525732,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265483,
+                "label": "b68136244",
+                "mandatory": "False",
+                "text": "Instrument-level characteristics: Calibration year",
+                "q_no": "4.17",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265545,
+                    "label": "b68136245",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.17.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525734,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265484,
+                "label": "b68136246",
+                "mandatory": "False",
+                "text": "Photometric quantities: Retinal illuminance (in Trolands)",
+                "q_no": "4.18",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265546,
+                    "label": "b68136247",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.18.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525737,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265485,
+                "label": "b68136248",
+                "mandatory": "False",
+                "text": "Source-level characteristics: Manufacturer-supplied characteristics (CCT, spectrum, ...)",
+                "q_no": "4.19",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265547,
+                    "label": "b68136249",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.19.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525741,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265486,
+                "label": "b68136250",
+                "mandatory": "False",
+                "text": "Spatial characteristics: Natural-language descriptors of spatial configuration",
+                "q_no": "4.20",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265548,
+                    "label": "b68136251",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.20.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525729,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265487,
+                "label": "b68136252",
+                "mandatory": "False",
+                "text": "Spatial characteristics: Absolute size of stimulus (e.g. in mm)",
+                "q_no": "4.21",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265549,
+                    "label": "b68136253",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.21.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525751,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265488,
+                "label": "b68136254",
+                "mandatory": "False",
+                "text": "Spectral characteristics: Spectral power distribution (arbitrary units)",
+                "q_no": "4.22",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265550,
+                    "label": "b68136255",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.22.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525754,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "GridRow",
+                "data_question_visibility": "show",
+                "id": 68265489,
+                "label": "b68136256",
+                "mandatory": "False",
+                "text": "Spectral characteristics: Spectral power distribution (normalised)",
+                "q_no": "4.23",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "displayLegend": false,
+                    "displayOptionality": false,
+                    "has_other": false,
+                    "id": 68265551,
+                    "label": "b68136257",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "q_no": "4.23.a",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 165525758,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Should be included",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265453,
+        "label": "b68122093",
+        "mandatory": "False",
+        "title": "Open-ended questions",
+        "children": [
+          {
+            "class": "FreeText",
+            "cols": 35,
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "format": "multi",
+            "id": 68265512,
+            "is_other": false,
+            "label": "b68127787",
+            "mandatory": "False",
+            "rows": 3,
+            "show_hints": true,
+            "text": "Do you have any comments or feedback on the current checklist, either regarding content or format?",
+            "q_no": "5"
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265509,
+            "label": "b68128078",
+            "mandatory": "False",
+            "text": "<p><strong>IMPORTANT</strong>: Please continue the survey until you see a message saying \"You may now close this browser window.\"</p>"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 68265449,
+        "label": "b68122045",
+        "mandatory": "False",
+        "title": "Final page",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 68265510,
+            "label": "b68128115",
+            "mandatory": "False",
+            "text": "<p>Thank you for participating in Round 2 of the ENLIGHT study.</p>\n\n<p>You may now close this browser window.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}
