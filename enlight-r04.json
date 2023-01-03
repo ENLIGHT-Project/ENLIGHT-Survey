@@ -1,0 +1,1701 @@
+{
+  "class": "Survey",
+  "id": 972360,
+  "internal_title": "ENLIGHT Round 4",
+  "l10n": "en_GB",
+  "runs": [
+    {
+      "class": "SurveyRun",
+      "alert_frequency": 0,
+      "alert_last_update": 0,
+      "contact_message": "<p>For questions relating to this survey, <b>please contact</b> [CONTACT-PERSON]</p>",
+      "discourage_search_engines": true,
+      "expected_responses": 100,
+      "external_title": "ENLIGHT Round 4",
+      "id": 972342,
+      "login_message": "<p>Please sign in below using the credentials supplied to you</p>",
+      "notification_invite_body": "Dear [EMAIL]\r\nAn online survey has been created for you to complete.\r\n\r\n[CUSTOM_URL]\r\n\r\n- Online surveys Team",
+      "notification_invite_subject": "You have been sent a survey to complete",
+      "notification_reminder_body": "Dear [EMAIL]\r\nWe have not yet detected your response to our survey.\r\n\r\n[CUSTOM_URL]\r\n\r\n- Online surveys Team",
+      "notification_reminder_subject": "Survey completion reminder",
+      "permit_back_forth": true,
+      "permit_finish_later": false,
+      "permit_response_printout": false,
+      "sender_name": "Jisc online surveys",
+      "short_name": "enlight-round-4",
+      "show_completion_receipt": false,
+      "show_numbering": false,
+      "show_progress": true,
+      "timezone": 346
+    }
+  ],
+  "top_container": {
+    "class": "Container",
+    "data_question_visibility": "show",
+    "id": 74966624,
+    "label": "b74824842",
+    "mandatory": "False",
+    "children": [
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 74966626,
+        "label": "b74824843",
+        "mandatory": "False",
+        "title": "ENLIGHT Survey Round 4",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966642,
+            "label": "b74825825",
+            "mandatory": "False",
+            "text": "<p>Thank you for agreeing to participate in <strong>Round 4</strong> of the ENLIGHT survey. We look forward to receiving your input. Please note that to qualify for contributorship under a group authorship model, you must complete Rounds 1, 2, and 4.</p>\n\n<p>Following <strong>Round 3</strong>, we have made numerous changes in the checklist by identifying common thematic clusters brought up in the synchronous Round 3 discussions (see attachment to the invitation email). These changes have simplified, condensed, and improved the checklist.</p>\n\n<p>We have also written guidelines explaining concepts contained in the checklist. These guidelines are kept concise, and are only intended to help authors complete the checklist and are not intended to provide a comprehensive guide on how to design studies or perform light measurements.</p>\n\n<p>In <strong>Round 4</strong>, we will ask for your input on which items in the checklist should be reported in studies <strong>irrespective of the specific context or study design</strong>. Items which more than 75% of experts believe should be reported irrespective of context will have the \u201cnot applicable\u201d box removed in the final checklist to indicate that the item is applicable regardless of context. All items will still have a \"not available\" box for authors to tick.</p>\n\n<p>We will also ask you to review both the <strong>Checklist</strong> and <strong>Guidelines</strong> and provide any final feedback. Please ensure any feedback is concise, specific, and actionable. Similarly to Round 3, we will group common themes that arise from the written feedback and make changes to the guidelines and/or checklist as appropriate.</p>\n\n<hr>\n<p><span style=\"color: #008000;\"><strong>Please remember: The checklist and guidelines are intended for use in human in-laboratory studies of the non-visual effects of light. We appreciate that there are other contexts, for example field research, where some of the items in the checklist may not be available or measurable. However, the development of a checklist which additionally covers these contexts is beyond the scope of the current exercise.</strong></span></p>"
+          },
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": true,
+            "format": "single",
+            "id": 74966647,
+            "is_other": false,
+            "label": "b74924678",
+            "mandatory": "True",
+            "maxsize": 5,
+            "show_hints": true,
+            "size": 35,
+            "text": "Please enter your unique 5-character ID.",
+            "q_no": "1"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 74966633,
+        "label": "b74883020",
+        "mandatory": "False",
+        "title": "Essential reporting items",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966641,
+            "label": "b74883023",
+            "mandatory": "False",
+            "text": "<p>Here, we ask you to indicate which reporting items should <strong>always be reported</strong>, irrespective of context, design or other specific aspects of the study. When we receive a consensus agreement of 75% that the item should always be reported, the \"Not applicable\" checkbox will be removed from the final version of the checklist.</p>\n\n<p>We note that indicating something should <em>always be reported</em>, does not prescribe a specific way of designing or running a research study.</p>\n\n<hr>\n<p><strong>Example 1:</strong> Indicating \u201cyes\u201d for \u201cPre-laboratory sleep-wake/rest-activity behaviour\u201d (Section A1) would mean that you think that the not-applicable box should be removed for this item in the checklist. Therefore, authors would always need to either describe how \u201cPre-laboratory sleep-wake/rest-activity\u201d was measured/controlled, OR state explicitly in the manuscript that it was not measured/controlled, OR indicate that it is not available in the checklist.</p>\n\n<p><strong>Example 2: </strong>Indicating \u201cno\u201d for \u201cWearable light-filtering apparatus\u201d (Section B1) would mean that you think that the not-applicable box should always be available for authors completing the checklist.</p>"
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966637,
+            "label": "b74965874",
+            "mandatory": "False",
+            "text": "<p><strong>A.1. Protocol-level characteristics</strong></p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966687,
+            "label": "b74883039",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>protocol-level characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "2",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966706,
+                "label": "b74883058",
+                "mandatory": "False",
+                "text": "Description of experimental setting",
+                "q_no": "2.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966672,
+                    "label": "b74883059",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "2.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414193,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414208,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966707,
+                "label": "b74883060",
+                "mandatory": "False",
+                "text": "Timeline of experiment (including timing and duration of light)",
+                "q_no": "2.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966665,
+                    "label": "b74883061",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "2.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414184,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414201,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966708,
+                "label": "b74883062",
+                "mandatory": "False",
+                "text": "Pre-laboratory sleep-wake/rest-activity behaviour",
+                "q_no": "2.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966673,
+                    "label": "b74883063",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "2.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414195,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414209,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966700,
+                "label": "b74924301",
+                "mandatory": "False",
+                "text": "Pre-laboratory light exposure",
+                "q_no": "2.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966656,
+                    "label": "b74924302",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "2.4.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414181,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414216,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966702,
+                "label": "b74924303",
+                "mandatory": "False",
+                "text": "Immediate prior light exposure (in laboratory)",
+                "q_no": "2.5",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966658,
+                    "label": "b74924304",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "2.5.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414185,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414218,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966638,
+            "label": "b74965921",
+            "mandatory": "False",
+            "text": "<p><strong>A.2. Measurement-level characteristics</strong></p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966685,
+            "label": "b74924344",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>measurement-level characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "3",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966703,
+                "label": "b74924346",
+                "mandatory": "False",
+                "text": "Measurement plane (e.g., horizontal or vertical)",
+                "q_no": "3.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966663,
+                    "label": "b74924347",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "3.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414168,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414199,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966690,
+                "label": "b74924348",
+                "mandatory": "False",
+                "text": "Measurement viewpoint and location",
+                "q_no": "3.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966664,
+                    "label": "b74924349",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "3.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414176,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414200,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966691,
+                "label": "b74924350",
+                "mandatory": "False",
+                "text": "Type, make and manufacturer of the measurement instrument",
+                "q_no": "3.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966675,
+                    "label": "b74924351",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "3.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414171,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414211,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966692,
+                "label": "b74924352",
+                "mandatory": "False",
+                "text": "Calibration status of the instrument",
+                "q_no": "3.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966666,
+                    "label": "b74924353",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "3.4.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414194,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414202,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966635,
+            "label": "b74965933",
+            "mandatory": "False",
+            "text": "<p><strong>A.3. Participant-level characteristics</strong></p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966686,
+            "label": "b74924358",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>participant-level characteristics</strong> always be reported, irrespective of context, design or context, design or specific aspects of a study?",
+            "q_no": "4",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966695,
+                "label": "b74924359",
+                "mandatory": "False",
+                "text": "Pupil size and/or dilation",
+                "q_no": "4.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966667,
+                    "label": "b74924360",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "4.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414170,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414203,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966712,
+                "label": "b74924361",
+                "mandatory": "False",
+                "text": "Relative time (e.g. to circadian phase or sleep)",
+                "q_no": "4.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966668,
+                    "label": "b74924362",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "4.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414174,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414204,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966701,
+                "label": "b74924363",
+                "mandatory": "False",
+                "text": "Ocular health and functioning",
+                "q_no": "4.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966670,
+                    "label": "b74924364",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "4.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414182,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414206,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966640,
+            "label": "b74965939",
+            "mandatory": "False",
+            "text": "<p><strong>B.1. Light source characteristics</strong></p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966683,
+            "label": "b74924426",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>light source characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "5",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966693,
+                "label": "b74924427",
+                "mandatory": "False",
+                "text": "Type, make and manufacturer of the light source",
+                "q_no": "5.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966654,
+                    "label": "b74924428",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "5.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414177,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414214,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966711,
+                "label": "b74924429",
+                "mandatory": "False",
+                "text": "Use of wearable filtering apparatus (e.g., blue-blocking glasses)",
+                "q_no": "5.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966671,
+                    "label": "b74924430",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "5.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414186,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414207,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966636,
+            "label": "b74965324",
+            "mandatory": "False",
+            "text": "<p><strong>B.2. Light-level characteristics</strong></p>\n\n<p>For these items, indicating \u201cyes\u201d would mean that you think either the illuminance/irradiance or luminance/radiance for each item should always be reported, depending on the type of light source, not that both should be.</p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966688,
+            "label": "b74924533",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>light-level characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "6",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966694,
+                "label": "b74924534",
+                "mandatory": "False",
+                "text": "Spectral irradiance OR radiance distribution",
+                "q_no": "6.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966669,
+                    "label": "b74924535",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "6.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414178,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414205,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966709,
+                "label": "b74924536",
+                "mandatory": "False",
+                "text": "Illuminance (lux) OR luminance (cd/m2)",
+                "q_no": "6.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966674,
+                    "label": "b74924537",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "6.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414169,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414210,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966705,
+                "label": "b74924539",
+                "mandatory": "False",
+                "text": "\u03b1\u2212opic irradiance OR radiance (including melanopic)",
+                "q_no": "6.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966676,
+                    "label": "b74924540",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "6.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414173,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414212,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966710,
+                "label": "b74924541",
+                "mandatory": "False",
+                "text": "\u03b1\u2212opic equivalent daylight illuminance OR luminance (EDI/EDL, including melanopic)",
+                "q_no": "6.4",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966677,
+                    "label": "b74924542",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "6.4.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414175,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414213,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966639,
+            "label": "b74965421",
+            "mandatory": "False",
+            "text": "<p><strong>B.3. Colour chacteristics</strong></p>\n\n<p>For \u201cPeak wavelength/bandwidth\u201d, these items are only relevant to narrow-band/monochromatic light sources, as already noted in the checklist. Therefore, if you select \u201cyes\u201d below, this would indicate that where narrow-band/monochromatic light sources are selected in Section B.1, you think that the not-applicable option should be removed for \u201cPeak wavelength/bandwidth\u201d.</p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966682,
+            "label": "b74965844",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following <strong>colour characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "7",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966697,
+                "label": "b74965846",
+                "mandatory": "False",
+                "text": "Peak wavelength and bandwidth",
+                "q_no": "7.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966660,
+                    "label": "b74965847",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "7.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414172,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414221,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966698,
+                "label": "b74965849",
+                "mandatory": "False",
+                "text": "Colour quantities (any)",
+                "q_no": "7.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966661,
+                    "label": "b74965850",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "7.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414191,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414197,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966699,
+                "label": "b74965851",
+                "mandatory": "False",
+                "text": "Colour rendition metrics (any)",
+                "q_no": "7.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966662,
+                    "label": "b74965853",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "7.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414180,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414198,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966634,
+            "label": "b74966028",
+            "mandatory": "False",
+            "text": "<p><strong>B.4. Temporal and spatial characteristics</strong></p>"
+          },
+          {
+            "class": "Scale",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "id": 74966684,
+            "label": "b74924555",
+            "mandatory": "False",
+            "min_number": 1,
+            "number_per_row": 1,
+            "show_headings": true,
+            "show_hints": true,
+            "text": "Should the following<strong> temporal and spatial characteristics</strong> always be reported, irrespective of context, design or specific aspects of a study?",
+            "q_no": "8",
+            "children": [
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966696,
+                "label": "b74924556",
+                "mandatory": "False",
+                "text": "Temporal pattern (including flash frequency and waveform)",
+                "q_no": "8.1",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966655,
+                    "label": "b74924557",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "8.1.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414179,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414215,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966689,
+                "label": "b74924558",
+                "mandatory": "False",
+                "text": "Location of stimulus and viewing distance",
+                "q_no": "8.2",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966657,
+                    "label": "b74924559",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "8.2.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414183,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414217,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "ScaleRow",
+                "data_question_visibility": "show",
+                "id": 74966704,
+                "label": "b74924560",
+                "mandatory": "False",
+                "text": "Relative or absolute size of the stimulus",
+                "q_no": "8.3",
+                "children": [
+                  {
+                    "class": "MultipleAnswer",
+                    "data_question_visibility": "show",
+                    "has_other": false,
+                    "id": 74966659,
+                    "label": "b74924561",
+                    "layout": "across",
+                    "mandatory": "False",
+                    "show_hints": true,
+                    "text": " ",
+                    "q_no": "8.3.i",
+                    "options": [
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414187,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "Yes",
+                        "value": 1
+                      },
+                      {
+                        "class": "SelectionOption",
+                        "id": 181414219,
+                        "is_not_applicable": false,
+                        "is_other": false,
+                        "screen_to_message": false,
+                        "text": "No",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "goto_page": "#b74824854",
+        "id": 74966632,
+        "label": "b74826556",
+        "mandatory": "False",
+        "title": "Comments on checklist and guidelines",
+        "children": [
+          {
+            "class": "FreeText",
+            "cols": 35,
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "format": "multi",
+            "id": 74966653,
+            "is_other": false,
+            "label": "b74826570",
+            "mandatory": "False",
+            "rows": 3,
+            "show_hints": true,
+            "text": "Do you have any open comments on the <strong>checklist</strong>? Please be concise and specific.",
+            "q_no": "9"
+          },
+          {
+            "class": "FreeText",
+            "cols": 35,
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "format": "multi",
+            "id": 74966652,
+            "is_other": false,
+            "label": "b74826939",
+            "mandatory": "False",
+            "rows": 3,
+            "show_hints": true,
+            "size": 35,
+            "text": "Do you have any open comments on the <strong>guidelines</strong>? Please be concise and specific.",
+            "q_no": "10"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 74966629,
+        "label": "b74824854",
+        "mandatory": "False",
+        "title": "Consortium authorship",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966643,
+            "label": "b74825956",
+            "mandatory": "False",
+            "text": "<p>As indicated in our invitation email, participants completing Rounds 1, 2 and 4 can be included on the manuscript describing the checklist, guidelines and the process by which the checklist were derived as contributors in a <a href=\"http://www.nlm.nih.gov/bsd/policy/authorship.html\">group authorship model</a>. Completing Round 4 will make you eligible for inclusion in the consortium.</p>\n\n<p>In the following section, we explicitly ask you to give your permission to be included as a contributor and ask for the name and email address with which you would like to be included. <strong>Please note that there will be no explicit opportunity to comment/provide feedback on the manuscript. </strong>However, prior to submission (either to a journal or pre-print server) you will receive a confidential copy of the manuscript, and be able to withdraw your contributorship if you no longer wish to be involved.</p>"
+          },
+          {
+            "class": "MultipleChoice",
+            "data_question_visibility": "show",
+            "displayLegend": false,
+            "displayOptionality": true,
+            "has_logic": true,
+            "has_other": false,
+            "id": 74966680,
+            "label": "b74827609",
+            "layout": "down",
+            "mandatory": "True",
+            "text": "Do you wish to be <strong>named as part of the ENLIGHT consortium</strong> and be a <strong>contributor</strong> following the <a target=\"_blank\" href=\"https://www.nlm.nih.gov/bsd/policy/authorship.html\">group authorship model</a>?",
+            "q_no": "11",
+            "options": [
+              {
+                "class": "SelectionOption",
+                "id": 181414189,
+                "is_not_applicable": false,
+                "is_other": false,
+                "route_to_page": "#b74827610",
+                "screen_to_message": false,
+                "text": "Yes",
+                "value": 1
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414222,
+                "is_not_applicable": false,
+                "is_other": false,
+                "route_to_page": "#b74827617",
+                "screen_to_message": false,
+                "text": "No",
+                "value": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "goto_page": "#b74882931",
+        "id": 74966631,
+        "label": "b74827610",
+        "mandatory": "False",
+        "title": "Your details",
+        "children": [
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": true,
+            "format": "single",
+            "id": 74966651,
+            "is_other": false,
+            "label": "b74827064",
+            "mandatory": "True",
+            "show_hints": true,
+            "size": 35,
+            "text": "Your <strong>first name</strong> (including any initials) as you wish it to appear on MEDLINE",
+            "q_no": "12"
+          },
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": true,
+            "format": "single",
+            "id": 74966646,
+            "is_other": false,
+            "label": "b74950838",
+            "mandatory": "True",
+            "show_hints": true,
+            "size": 35,
+            "text": "Your <strong>last name</strong> as you wish it to appear on MEDLINE",
+            "q_no": "13"
+          },
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": true,
+            "format": "single",
+            "id": 74966648,
+            "is_other": false,
+            "label": "b74827067",
+            "mandatory": "True",
+            "show_hints": true,
+            "size": 35,
+            "text": "Your email address",
+            "q_no": "14"
+          },
+          {
+            "class": "FreeText",
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "format": "single",
+            "id": 74966649,
+            "is_other": false,
+            "label": "b74827164",
+            "mandatory": "False",
+            "show_hints": true,
+            "size": 35,
+            "text": "Your ORCID",
+            "q_no": "15"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "goto_page": "#b74882931",
+        "id": 74966625,
+        "label": "b74827617",
+        "mandatory": "False",
+        "title": "Reason for not joining the group authorship",
+        "children": [
+          {
+            "class": "FreeText",
+            "cols": 35,
+            "data_question_visibility": "show",
+            "displayOptionality": false,
+            "format": "multi",
+            "id": 74966650,
+            "is_other": false,
+            "label": "b74827622",
+            "mandatory": "False",
+            "rows": 3,
+            "show_hints": true,
+            "size": 35,
+            "text": "What are your reasons for not joining the ENLIGHT consortium as a contributor on the publication?",
+            "q_no": "16"
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 74966628,
+        "label": "b74882931",
+        "mandatory": "False",
+        "title": "Evaluation of the modified Delphi process",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966644,
+            "label": "b74882949",
+            "mandatory": "False",
+            "text": "<p>We would like to ask you to evaluate the modified Delphi process which we have implemented as part of the ENLIGHT project. We ask you to evaluated the <strong>process</strong> separately from the <strong>outcome</strong>.</p>\n\n<p>We would like to thank you again for your time and contribution. We really appreciate your ongoing involvement.</p>"
+          },
+          {
+            "class": "MultipleChoice",
+            "data_question_visibility": "show",
+            "displayLegend": false,
+            "displayOptionality": false,
+            "has_logic": false,
+            "has_other": false,
+            "id": 74966679,
+            "label": "b74882940",
+            "layout": "down",
+            "mandatory": "False",
+            "text": "How satisfied are you with the ENLIGHT modified Delphi <strong>process</strong>?",
+            "q_no": "17",
+            "options": [
+              {
+                "class": "SelectionOption",
+                "id": 181414190,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very satisfied",
+                "value": 5
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414196,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Satisfied",
+                "value": 4
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414226,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Unsure",
+                "value": 3
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414229,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Dissatisfied",
+                "value": 2
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414231,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very dissatisfied",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "class": "MultipleChoice",
+            "data_question_visibility": "show",
+            "displayLegend": false,
+            "displayOptionality": false,
+            "has_logic": false,
+            "has_other": false,
+            "id": 74966678,
+            "label": "b74882950",
+            "layout": "down",
+            "mandatory": "False",
+            "text": "How satisfied are you with the <strong>ENLIGHT checklist</strong>?",
+            "q_no": "18",
+            "options": [
+              {
+                "class": "SelectionOption",
+                "id": 181414192,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very satisfied",
+                "value": 5
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414220,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Satisfied",
+                "value": 4
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414225,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Unsure",
+                "value": 3
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414227,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Dissatisfied",
+                "value": 2
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414232,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very dissatisfied",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "class": "MultipleChoice",
+            "data_question_visibility": "show",
+            "displayLegend": false,
+            "displayOptionality": false,
+            "has_logic": false,
+            "has_other": false,
+            "id": 74966681,
+            "label": "b74882952",
+            "layout": "down",
+            "mandatory": "False",
+            "text": "How satisfied are you with the <strong>ENLIGHT guidelines</strong>?",
+            "q_no": "19",
+            "options": [
+              {
+                "class": "SelectionOption",
+                "id": 181414188,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very satisfied",
+                "value": 5
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414223,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Satisfied",
+                "value": 4
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414224,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Unsure",
+                "value": 3
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414228,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Dissatisfied",
+                "value": 2
+              },
+              {
+                "class": "SelectionOption",
+                "id": 181414230,
+                "is_not_applicable": false,
+                "is_other": false,
+                "screen_to_message": false,
+                "text": "Very dissatisfied",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "Page",
+        "data_question_visibility": "show",
+        "id": 74966627,
+        "label": "b74824844",
+        "mandatory": "False",
+        "title": "Final page",
+        "children": [
+          {
+            "class": "Note",
+            "data_question_visibility": "show",
+            "id": 74966645,
+            "label": "b74883149",
+            "mandatory": "False",
+            "text": "<p>Thank you participating in the ENLIGHT project. We appreciate the time and effort you have put into this.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}
